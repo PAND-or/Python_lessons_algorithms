@@ -9,10 +9,10 @@ __author__ = "Андрей Петров"
 res_matrix = []
 print('Заполните матрицу 5х4, последовательным вводом чисел, последний 5ый элемент строки рассчитается как сумма')
 
-for i in range(0,4):
+for i in range(4):
     res_matrix.append([])
     row_sum = 0
-    for j in range(0,4):
+    for j in range(4):
         inp = int(input(f'Число для строки {i+1}, ячейки {j+1}: '))
         res_matrix[i].append(inp)
         row_sum += inp

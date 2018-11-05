@@ -14,7 +14,7 @@ print(random_list)
 
 for k,v in enumerate(random_list):
     if v < 0:
-        if not('value' in max_num):
+        if 'value' not in max_num:
             max_num['key'] = k
             max_num['value'] = v
         elif v > max_num['value']:

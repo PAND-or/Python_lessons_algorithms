@@ -15,12 +15,12 @@ count = {}
 max_nuber = max_count = 0
 
 for i in random_list:
-    if(i in count):
+    if i in count:
         count[i] +=1
     else:
         count[i] = 1
         
-    if(count[i] > max_count):
+    if count[i] > max_count:
         max_count = count[i]
         max_nuber = i
     
