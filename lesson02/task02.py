@@ -7,7 +7,7 @@ __author__ = "Андрей Петров"
 """
 
 def recursion(n, chet=0, nechet=0):
-    if(n % 10) % 2 == 0:
+    if n % 2 == 0:
         chet +=1
     else:
         nechet +=1

@@ -13,7 +13,7 @@ count = 10
 print(rand_number)
 while True:
     if count == 0:
-        print('попыток больше нет')
+        print(f'попыток больше нет, загаданное число {rand_number}')
         break
     a = int(input('Число: '))
     if a == rand_number:

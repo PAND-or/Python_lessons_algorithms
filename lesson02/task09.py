@@ -16,10 +16,10 @@ def recsum(n, z=0):
 
 max_sum = 0
 max_int = 0
-print('Подсчет суммы цифр числа и нахождение большей, для завершения введите "exit"')
+print('Подсчет суммы цифр числа и нахождение большей, для завершения введите 0')
 while True:
     a = int(input('Число: '))
-    if a == 'exit':
+    if a == 0:
         break
     sum_a = recsum(a)
     if(max_sum < sum_a):
